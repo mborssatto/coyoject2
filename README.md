@@ -1,4 +1,7 @@
-  ## Mariana's project for Coyotiv Software Engineering Course. Nov 2022
+  ## Mariana's project for Coyotiv Software Engineering Course
+
+### Now from a template with Express js
+
 &nbsp;
 
 ---
