@@ -6,7 +6,7 @@ const eventOne = new Event('Festival One', ['Maria Bethânia', 'Cateano Veloso']
 const eventTwo = new Event('Festival two', ['Mulatu Astatke'], '2022-12-09', 'HKW', 'Berlin')
 const events = [eventOne, eventTwo]
 
-// User input
+// MOCK User input
 const dateRangeStart = '2022-11-01'
 const dateRangeEnd = '2022-12-08'
 const city = 'Berlin'
@@ -22,7 +22,7 @@ console.log(filteredList)
 console.log(eventOne)
 console.log(eventTwo)
 
-// from template
+// Users from template
 
 const armagan = new User('armagan', 20)
 const steve = new User('steve', 22)
@@ -30,3 +30,5 @@ const steve = new User('steve', 22)
 const users = [armagan, steve]
 
 module.exports = { users }
+
+module.exports = { events }
