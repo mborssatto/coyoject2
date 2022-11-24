@@ -1,13 +1,12 @@
 class User {
-  constructor(name, age) {
+  constructor(name) {
     this.name = name
-    this.age = age
-    this.bio = ''
-    this.songs = ['one', 'two', 'three']
+    this.favoriteEvents = []
   }
 
-  get profile() {
-    return `${this.name} (${this.age}), Bio: ${this.bio}`
+  addToFavorites(event) {
+    event.favoritedBy.push(this)
+    this.favoriteEvents.push(event)
   }
 }
 
