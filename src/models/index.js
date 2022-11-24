@@ -21,3 +21,12 @@ console.log(eventOne.detail)
 console.log(filteredList)
 console.log(eventOne)
 console.log(eventTwo)
+
+// from template
+
+const armagan = new User('armagan', 20)
+const steve = new User('steve', 22)
+
+const users = [armagan, steve]
+
+module.exports = { users }
