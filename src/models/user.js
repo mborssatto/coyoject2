@@ -3,6 +3,7 @@ class User {
     this.name = name
     this.age = age
     this.bio = ''
+    this.songs = ['one', 'two', 'three']
   }
 
   get profile() {
