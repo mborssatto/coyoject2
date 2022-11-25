@@ -13,7 +13,7 @@ router.get('/', function (req, res, next) {
     result = events.filter(event => event.city === req.query.city)
   }
 
-  res.send(result)
+  res.render('events', { result })
 })
 
 module.exports = router
