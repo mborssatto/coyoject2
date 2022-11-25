@@ -29,6 +29,4 @@ const steve = new User('steve', 22)
 
 const users = [armagan, steve]
 
-module.exports = { users }
-
-module.exports = { events }
+module.exports = { users, events }
