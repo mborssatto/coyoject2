@@ -1,10 +1,10 @@
 const User = require('./user')
 const Event = require('./event')
 
-let event
-const eventOne = new Event('Festival One', ['Maria Bethânia', 'Cateano Veloso'], '2022-11-29', 'HKW', 'Berlin')
-const eventTwo = new Event('Festival two', ['Mulatu Astatke'], '2022-12-09', 'HKW', 'Berlin')
-const events = [eventOne, eventTwo]
+const eventOne = new Event('Festival One', ['Maria Bethânia', 'Caatano Veloso'], '2022-11-01', 'HKW', 'Berlin')
+const eventTwo = new Event('Festival two', ['Mulatu Astatke'], '2022-12-01', 'HKW', 'Berlin')
+const eventThree = new Event('Festival Three', ['Gal Costa'], '2022-10-01', 'Teatro Central', 'São Paulo')
+const events = [eventOne, eventTwo, eventThree]
 
 // MOCK User input
 const dateRangeStart = '2022-11-01'
@@ -19,7 +19,6 @@ const filteredList = events.filter(filter)
 
 console.log(eventOne.detail)
 console.log(filteredList)
-console.log(eventOne)
 console.log(eventTwo)
 
 // Users from template
