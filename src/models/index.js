@@ -17,9 +17,9 @@ function filter(el) {
 
 const filteredList = events.filter(filter)
 
-console.log(eventOne.detail)
-console.log(filteredList)
-console.log(eventTwo)
+// console.log(eventOne.detail)
+// console.log(filteredList)
+// console.log(eventTwo)
 
 // Users from template
 
